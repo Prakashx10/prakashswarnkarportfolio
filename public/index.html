@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prakash Swarnkar | Portfolio</title>
+    <meta name="description" content="Premium animated portfolio website for Prakash Swarnkar, B.Tech CSE student focused on communication, research, networking, and web fundamentals." />
+    <meta name="theme-color" content="#0f172a" />
+    <script>
+      (() => {
+        const saved = localStorage.getItem("theme");
+        const system = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = saved || system;
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-orb" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Prakash Swarnkar home">
+          <span class="brand-mark">PS</span>
+          <span class="brand-text">Prakash Swarnkar</span>
+        </a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" data-nav-links>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color theme">
+            <span class="theme-icon" data-theme-icon>☾</span>
+            <span data-theme-label>Theme</span>
+          </button>
+          <a class="button button-primary compact" href="/resume">Resume</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Portfolio · CSE Student · Open to Internships</p>
+            <h1 id="hero-title"><span id="name">Prakash Swarnkar</span></h1>
+            <p class="hero-role" id="role">Second-year B.Tech CSE student exploring business communication, research, professional networking, and web development fundamentals.</p>
+            <p class="hero-summary" id="hero-summary">Looking for practical industry exposure and opportunities to develop real-world communication and outreach skills.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="/resume">Download Resume</a>
+              <a class="button button-secondary" href="#contact">Let’s Connect</a>
+            </div>
+          </div>
+          <aside class="hero-console reveal" aria-label="Portfolio highlights">
+            <div class="console-topline">
+              <span></span><span></span><span></span>
+              <strong>Candidate Snapshot</strong>
+            </div>
+            <div class="hero-metrics" id="hero-metrics"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section about-section reveal" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Curious, disciplined, and ready for practical exposure.</h2>
+        </div>
+        <div class="about-layout">
+          <article class="glass-card profile-card">
+            <p id="about-summary">Prakash is a second-year B.Tech CSE student with interest in business communication, research, and professional networking.</p>
+            <div class="quick-facts" id="quick-facts"></div>
+          </article>
+          <div class="stacked-cards" id="about-cards"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Skills</p>
+            <h2 id="skills-title">A practical toolkit for outreach, research, and web fundamentals.</h2>
+          </div>
+          <button class="button button-secondary" type="button" data-toggle-section="skills-panel">Hide / Show skills</button>
+        </div>
+        <div class="skills-panel" id="skills-panel">
+          <div class="skill-cloud" id="skill-cloud"></div>
+          <div class="skill-groups" id="skill-groups"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="education" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2 id="education-title">Academic path anchored in Computer Science & Engineering.</h2>
+        </div>
+        <div class="timeline" id="education-timeline"></div>
+      </section>
+
+      <section class="section reveal" id="details" aria-labelledby="details-title">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Activities & Strengths</p>
+            <h2 id="details-title">College-level initiative with consistent learning habits.</h2>
+          </div>
+        </div>
+        <div class="detail-grid" id="detail-grid"></div>
+      </section>
+
+      <section class="section contact-section reveal" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Available for internships and professional networking.</h2>
+            <p id="contact-copy">Reach out for internship conversations, college-level opportunities, outreach projects, or web fundamentals collaboration.</p>
+          </div>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Prakash Swarnkar.</p>
+      <a class="back-top" href="#top">Back to top ↑</a>
+    </footer>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>

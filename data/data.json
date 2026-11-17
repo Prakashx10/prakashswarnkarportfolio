@@ -1,0 +1,172 @@
+{
+  "name": "Prakash Swarnkar",
+  "designation": "Second-year B.Tech CSE student exploring business communication, research, professional networking, and web development fundamentals.",
+  "location": "Korba, Chhattisgarh",
+  "availability": "Open to onsite internship opportunities for 2-3 months",
+  "summary": "Second-year B.Tech CSE student with interest in business communication, research, and professional networking. Looking for practical industry exposure and opportunities to develop real-world communication and outreach skills.",
+  "contact": {
+    "email": "prakashswarnkar.work@gmail.com",
+    "phone": "7240245401",
+    "website": "",
+    "linkedin": "",
+    "github": "https://github.com/Prakashx10",
+    "otherLinks": []
+  },
+  "socialLinks": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/prakash-swarnkar-7b38b2317/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Prakashx10"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/prakashlives_/"
+    }
+  ],
+  "skills": [
+    "C Programming",
+    "HTML & CSS",
+    "Git & GitHub",
+    "Basic Excel",
+    "Internet Research",
+    "Communication Skills",
+    "LinkedIn Outreach",
+    "Problem Solving"
+  ],
+  "skillGroups": [
+    {
+      "title": "Programming & Web",
+      "items": ["C Programming", "HTML & CSS", "Git & GitHub"]
+    },
+    {
+      "title": "Research & Productivity",
+      "items": ["Internet Research", "Basic Excel", "Problem Solving"]
+    },
+    {
+      "title": "Communication",
+      "items": [
+        "Communication Skills",
+        "LinkedIn Outreach",
+        "Professional Networking"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kalinga Institute of Industrial Technology (KIIT)",
+      "program": "B.Tech in Computer Science & Engineering",
+      "period": "Expected Graduation: 2028",
+      "score": "CGPA: 7.6"
+    },
+    {
+      "institution": "Class XII",
+      "program": "Senior Secondary Education",
+      "period": "Completed",
+      "score": "75.2%"
+    },
+    {
+      "institution": "Class X",
+      "program": "Secondary Education",
+      "period": "Completed",
+      "score": "93.2%"
+    }
+  ],
+  "activities": [
+    "Participated in technical recruitment tasks at college level",
+    "Exploring web development and programming fundamentals"
+  ],
+  "strengths": [
+    "Quick learner",
+    "Comfortable with online research",
+    "Consistent and disciplined",
+    "Willing to work in fast-paced environments"
+  ],
+  "highlights": [
+    {
+      "label": "Current Track",
+      "value": "B.Tech CSE"
+    },
+    {
+      "label": "Graduation",
+      "value": "2028"
+    },
+    {
+      "label": "Internship",
+      "value": "2-3 months"
+    },
+    {
+      "label": "Preferred Location",
+      "value": "Pune onsite"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Profile Summary",
+      "paragraphs": [
+        "Second-year B.Tech CSE student with interest in business communication, research, and professional networking. Looking for practical industry exposure and opportunities to develop real-world communication and outreach skills."
+      ],
+      "items": [],
+      "text": "Second-year B.Tech CSE student with interest in business communication, research, and professional networking. Looking for practical industry exposure and opportunities to develop real-world communication and outreach skills."
+    },
+    {
+      "title": "Education",
+      "paragraphs": [],
+      "items": [
+        "Kalinga Institute of Industrial Technology (KIIT) — B.Tech in Computer Science & Engineering — Expected Graduation: 2028 — CGPA: 7.6",
+        "Class XII — 75.2%",
+        "Class X — 93.2%"
+      ],
+      "text": "Kalinga Institute of Industrial Technology (KIIT) B.Tech in Computer Science & Engineering Expected Graduation: 2028 | CGPA: 7.6 Class XII 75.2% Class X 93.2%"
+    },
+    {
+      "title": "Skills",
+      "paragraphs": [],
+      "items": [
+        "C Programming",
+        "HTML & CSS",
+        "Git & GitHub",
+        "Basic Excel",
+        "Internet Research",
+        "Communication Skills",
+        "LinkedIn Outreach",
+        "Problem Solving"
+      ],
+      "text": "C Programming HTML & CSS Git & GitHub Basic Excel Internet Research Communication Skills LinkedIn Outreach Problem Solving"
+    },
+    {
+      "title": "Activities",
+      "paragraphs": [],
+      "items": [
+        "Participated in technical recruitment tasks at college level",
+        "Exploring web development and programming fundamentals"
+      ],
+      "text": "Participated in technical recruitment tasks at college level Exploring web development and programming fundamentals"
+    },
+    {
+      "title": "Strengths",
+      "paragraphs": [],
+      "items": [
+        "Quick learner",
+        "Comfortable with online research",
+        "Consistent and disciplined",
+        "Willing to work in fast-paced environments"
+      ],
+      "text": "Quick learner Comfortable with online research Consistent and disciplined Willing to work in fast-paced environments"
+    },
+    {
+      "title": "Additional Information",
+      "paragraphs": [],
+      "items": [
+        "Open to onsite internship opportunities in Pune",
+        "Available for 2-3 month internship duration"
+      ],
+      "text": "Open to onsite internship opportunities in Pune Available for 2-3 month internship duration"
+    }
+  ],
+  "resumeText": "Prakash Swarnkar | Korba, Chhattisgarh | 7240245401 | prakashswarnkar.work@gmail.com"
+}
+
+
